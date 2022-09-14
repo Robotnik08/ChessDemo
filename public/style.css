@@ -1,0 +1,10 @@
+#main {
+    border: 5px solid black;
+}
+body {
+    overflow: hidden;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

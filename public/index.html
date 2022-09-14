@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ChessAttack</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id='chess'>waiting for opponent</h1>
+        <canvas id='main' width="800px" height="800px" onmousemove="getMousePos(event)" onclick="changeSel()"></canvas>
+        <script src='/socket.io/socket.io.js'></script>
+        <script src='client.js'></script>
+    </body>
+</html>
